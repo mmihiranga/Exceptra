@@ -1454,8 +1454,8 @@ p {
     right: 0 !important;
     border-radius: 0;
     border-radius: 5px;
-    height: 65px;
-    line-height: 65px;
+    height: 45px;
+    line-height: 43px;
     background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
     background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
     background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
@@ -1700,6 +1700,7 @@ p {
   border: 2px solid #ebeaea !important ;
   border-radius: 5px;
   margin-bottom:5px !important ;
+  width: 100%;
   
 }
 
