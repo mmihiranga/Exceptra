@@ -871,14 +871,27 @@
                     <div class="col-lg-6">
                         <div class="subscribe-form mt-50">
                             <form action="https://formsubmit.co/expectralk@gmail.com" method="POST">
+
+                                <input type="hidden" name="_subject" value="New submission!">
+
+                                <input type="hidden" name="_cc" value="madhuramihiranga6@gmail.com,sachcha99@gmail.com">
+
+                                <!-- <input type="hidden" name="_captcha" value="false"> -->
+
+                                
+                                <input type="hidden" name="_template" value="table">
+
                                 <label class="contact-label" for="Name">Name </label>
-                                <input type="text" class="contact-input" placeholder="">
+                                <input type="text" class="contact-input" placeholder="Your Name" name="Name" required>
+
+                                <input type="hidden" name="_autoresponse" value="Thank you! We received your respone. We will contact you as soon as possible.">
 
                                 <label class="contact-label"  for="E-mail">E-mail </label>
-                                <input type="email" class="contact-input" placeholder="">
+                                <input type="email" class="contact-input" name="email" placeholder="Email Address" required>
+                                
 
                                 <label class="contact-label"  for="Message">Message </label>
-                                <textarea cols="59" rows="10" type="text" class="contact-textarea" placeholder=""> </textarea>
+                                <textarea cols="59" rows="10" type="text" name="message" class="contact-textarea" placeholder="Write your message here" required> </textarea>
                               
                                 <button class="main-btn ">Send</button>
                             </form>
@@ -938,7 +951,7 @@
                             <ul class="contact">
                                 <li>+94 717 222 462</li>
                                 <li>expectralk@gmail.com</li>
-                                <li>www.expectralk.com</li>
+                                <li>www.expectra.live</li>
                                 <li>Matara ,  <br> Sri Lanka.</li>
                             </ul>
                         </div> <!-- footer contact -->
